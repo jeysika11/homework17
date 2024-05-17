@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 0 6px 16px;
+    padding: 16px;
+
+}
+
+text-align: center;
+padding: 10px;
+margin: 10px;
+
+
+header nav {
+    width: 1100px;
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul :nth-child(2) {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    display: inline-block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+section {
+    background-image: url(./photo_2023-08-12_20-26-12.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-wrapper {
+    padding: 20px;
+    margin: 50px;
+    width: 1200px;
+    color: white;
+    text-align: center;
+
+}
+
+.pizza {
+    margin: 150px;
+    padding: 50px;
+}
+
+.card-wrapper {
+
+    padding: 30px 16px;
+
+    margin: 90px 10px;
+}
+
+section {
+    background-color: #252420;
+    padding: 30px 16px;
+}
+
+.border-wrap {
+    width: 100%;
+
+
+    background-color: #252420;
+}
+
+.menu {
+    width: 295px;
+    border: 1px solid rgb(240, 21, 21);
+    display: inline-block;
+    text-align: center;
+    background-color: aliceblue;
+
+    vertical-align: middle;
+    padding: 20px;
+    margin: 50px;
+    height: 450px;
+}
+
+.menu img {
+    width: 100%;
+
+    padding: 5px;
+}
+
+.img {
+    text-align: center;
+    color: white;
+}
+
+.orange {
+    color: orangered;
+}
+
+.server {
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.italik {
+    color: rgb(208, 202, 202);
+}
+
+.test {
+    padding: 20px;
+}
+
+.section-item img {
+    border-radius: 20px;
+    width: 700px;
+    margin: 0px 45px;
+
+
+}
+
+
+.and {
+    color: #252420;
+}
+
+.section-item .end-wrapper {
+    display: inline-block;
+    width: 45px;
+}
